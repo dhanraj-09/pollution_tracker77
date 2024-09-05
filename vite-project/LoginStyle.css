@@ -1,0 +1,31 @@
+.card{
+    padding: 50px;
+    height:500px;
+    width:400px;
+    /* border: 2px solid rgb(153, 152, 152) ; */
+    background-color: #c7c4c329;
+    border-radius :30px;
+    backdrop-filter:blur(40px);
+    box-shadow: inset 0px 0px 20px 4px #303030;
+}
+body{
+    height: 100vh;
+    display: flex;;
+    justify-content: flex-end;
+    align-items: center;
+    /* background-color: rgb(40, 40, 43); */
+background-color: rgb(27, 18, 18);
+    /* background-image:  url("pexels-photo-266403[1].jpeg");*/
+    background-size: cover;
+    padding-right:90px ;
+background-image: url("src/assets/clearoff.jpg");
+}
+.form-label{
+    font-weight: bold;
+    color: white;
+}
+img{
+    border: 5px solid white;
+height: 500px;
+margin-right: 350px;
+}
