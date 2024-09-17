@@ -10,10 +10,10 @@ let con = mysql.createConnection({
 con.connect(function(err) {
   if (err)
   {
-    console.log("connected");
+    console.log("error");
   }
   else
   {
-    console.log("not connected");
+    console.log("connected");
   }
 });

@@ -1,7 +1,6 @@
 import styled  from "styled-components";
 function Rough()
 {
-
   const TEXTAREA=styled.textarea`
     padding: 0;
     border: 1px solid #1f43be;

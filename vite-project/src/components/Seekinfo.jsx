@@ -2,6 +2,7 @@ import styled  from "styled-components";
 
 const BUTTON=styled.button`
   position: relative;
+  color: white;
   left: 550px;
   top: 400px;
   margin: 0;
@@ -10,7 +11,7 @@ const BUTTON=styled.button`
   border: none;
   height: 100px;
   width: 350px;
-  font-family: "sans-serif";
+  font-family: "Times New Roman";
   font-weight: bolder;
   font-size: larger;
   background-color: #007bff;

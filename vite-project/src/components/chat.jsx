@@ -1,7 +1,7 @@
 import {useState,useEffect} from "react";
 import io from "socket.io-client";
 
-const socket=io("http://localhost:7007");//replace with your server address
+const socket=io("http://localhost:4000");//replace with your server address
 
 function chat() {
   const [messages, setMessages] = useState([]);
@@ -45,7 +45,7 @@ function chat() {
               <input
                 type="text"
                 className="w-full px-2 py-1 border rounded-l-md outline-none"
-                placeholder="likh bsdk"
+                placeholder="let's chat"
                 value={messageInput}
                 onChange={(e) => setMessageInput(e.target.value)}
               />

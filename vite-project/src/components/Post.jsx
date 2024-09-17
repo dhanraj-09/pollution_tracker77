@@ -3,6 +3,7 @@ import {useState} from "react";
 
 function Post()
 {
+
   const TEXTAREA=styled.textarea`
   width: 500px`;
   const BUTTON=styled.button`
