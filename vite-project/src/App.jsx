@@ -1,23 +1,17 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import axios from 'axios';
+import {StrictMode} from "react";
+import Home from "./components/Home.jsx";
+import Mapping from "./components/Mapping.jsx";
 function App() {
-  const [data, setData] = useState('');
-  useEffect(() => {
-    axios.get('server/backend.js')
-      .then(response => {
-        setData(response.data.message);
-      })
-      .catch(error => {
-        console.error(error);
-      });
-  }, []);
+
 
 
   return (
-    <div className="App">
-      <h1>React and Node.js Integration</h1>
-      <p>Message from the server: {data}</p>
-    </div>
+   <StrictMode>
+       <Home></Home>
+       <Mapping></Mapping>
+   </StrictMode>
   );
 }
 

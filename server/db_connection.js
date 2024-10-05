@@ -1,12 +1,12 @@
 const mysql=require('mysql');
 
 let con = mysql.createConnection({
-  server:'127.0.0.1',
-  database:'rescuenet',
+  server:'',
+  database:'',
   user:'root',
-  password:'2614@khbh',
+  password:'',
   port:3306
-});
+});z
 con.connect(function(err) {
   if (err)
   {

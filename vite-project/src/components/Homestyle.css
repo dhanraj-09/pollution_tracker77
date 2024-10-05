@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "montserrat";
+    color: #fff;
+}
+#nav{
+    height: 10vh;
+    width: 100%;
+    background-color: red;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    gap: 5vh;
+    padding: 0 12vh;
+    justify-content: flex-start;
+    z-index: 99;
+}
+nav img{
+    height: 15vh;
+    width:8% ;
+}
+nav header4{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+video{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+#main
+{
+    height: 100vh;
+    width: 100%;
+}
+
+
+
