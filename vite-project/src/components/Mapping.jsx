@@ -1,8 +1,6 @@
 import styled from "styled-components";
 import "./mappingstyle.css"
 import aqi_index from "../assets/aqi_index.jpg"
-import Searchbar from "./Searchbar.jsx";
-import SearchResult from "./SearchResult.jsx";
 function Mapping()
 {
     const DIV=styled.div``;
@@ -18,7 +16,6 @@ function Mapping()
 
                     </IMG>
                         <BUTTON className={"button"} id={"button1"}></BUTTON>
-                        <Searchbar placeholder={"fruits"} data={data}></Searchbar>
                 </DIV>
             </DIV>
             <DIV className={"block"}>

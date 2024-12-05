@@ -1,13 +1,9 @@
 import "./Homestyle.css"
-import free from "../assets/free.jpg"
 import free1 from "../assets/free1.png"
-import video1 from "../assets/video1.mp4"
 import video2 from "../assets/video2.mp4"
 import styled from "styled-components";
-import { gsap } from "gsap/dist/gsap";
-import { CSSRulePlugin } from "gsap/dist/CSSRulePlugin";
-import _gsap from "gsap/gsap-core";
-gsap.registerPlugin(CSSRulePlugin);
+
+
 
 
 function Home()
@@ -34,7 +30,7 @@ function Home()
                     <div className={"header-overlay"}>
                         <h1>KNOW.YOUR.AIR</h1>
                         <h2>WELCOME TO BREATHE SAFE</h2>
-                        <p>"Tracking Air Quality for a Healthier you"</p>
+                        <p>Tracking Air Quality for a Healthier you</p>
                     </div>
                 </div>
 

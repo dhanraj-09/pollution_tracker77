@@ -1,5 +1,6 @@
 const http = require('https');
 
+
 const options = {
     method: 'GET',
     hostname: 'restcountries-v1.p.rapidapi.com',
@@ -10,3 +11,4 @@ const options = {
         'x-rapidapi-host': 'restcountries-v1.p.rapidapi.com'
     }
 };
+
